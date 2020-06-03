@@ -52,38 +52,19 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="214" id="Jg1-Nh-hu5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUy-i4-H86">
-                                <rect key="frame" x="75" y="120.66666666666667" width="44.666666666666657" height="27.666666666666671"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BN-Su-UCH">
-                                <rect key="frame" x="318.66666666666669" y="120.66666666666667" width="20.333333333333314" height="27.666666666666671"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="oUy-i4-H86" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="23d-ZR-Uxu"/>
                             <constraint firstItem="bnO-xN-pFR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2IF-aB-C0e"/>
-                            <constraint firstItem="oUy-i4-H86" firstAttribute="top" secondItem="adr-JM-Wbt" secondAttribute="bottom" constant="10" id="4GO-CL-Awu"/>
                             <constraint firstItem="bnO-xN-pFR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5GG-eW-mbT"/>
-                            <constraint firstItem="dw8-NX-Xy5" firstAttribute="top" secondItem="oUy-i4-H86" secondAttribute="bottom" constant="20" id="7fM-Vz-bEJ"/>
                             <constraint firstItem="dtE-jJ-6xH" firstAttribute="top" secondItem="bnO-xN-pFR" secondAttribute="bottom" constant="152.5" id="EoS-X5-bZG"/>
                             <constraint firstItem="dw8-NX-Xy5" firstAttribute="top" secondItem="adr-JM-Wbt" secondAttribute="bottom" constant="57.5" id="PP1-Mq-lEm"/>
                             <constraint firstItem="adr-JM-Wbt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ppj-mI-38M"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1BN-Su-UCH" secondAttribute="trailing" constant="75" id="TOi-K7-7fi"/>
-                            <constraint firstItem="1BN-Su-UCH" firstAttribute="top" secondItem="adr-JM-Wbt" secondAttribute="bottom" constant="10" id="Wxw-qG-Wve"/>
                             <constraint firstItem="dtE-jJ-6xH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YYa-PC-b9w"/>
                             <constraint firstItem="adr-JM-Wbt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="anB-ay-iat"/>
                             <constraint firstItem="dw8-NX-Xy5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="beG-5M-fyg"/>
-                            <constraint firstItem="1BN-Su-UCH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oUy-i4-H86" secondAttribute="trailing" constant="8" symbolic="YES" id="lab-0Y-d9c"/>
-                            <constraint firstItem="dw8-NX-Xy5" firstAttribute="top" secondItem="1BN-Su-UCH" secondAttribute="bottom" constant="20" id="nNi-85-v1d"/>
                             <constraint firstItem="1CL-65-CiU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wqt-jH-fXg"/>
                             <constraint firstItem="dtE-jJ-6xH" firstAttribute="top" secondItem="1CL-65-CiU" secondAttribute="bottom" constant="74" id="xD8-3g-ye1"/>
                         </constraints>
